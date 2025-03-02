@@ -10,9 +10,9 @@
     <form action="">
 <h1>Login</h1>
 <label for="Email"> Enter your Email</label>
-<input type="text" class="glass-input">
+<input type="email" id="email" class="glass-input" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
 <label for=""> Enter your Password</label>
-<input type="password" class="glass-input">
+<input type="password" class="glass-input" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$" title="Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one digit, and one special character (!@#$%^&*)." required>
 <div class="row">
     <div class="form-group">
  <input type="checkbox">
