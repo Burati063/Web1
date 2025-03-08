@@ -1,0 +1,83 @@
+/* body{
+    display: flex;
+    height: 100vh;
+} */
+ .one{
+    color: #1877F2;
+   
+ }
+ .two{
+    color: #ff0000;
+ }
+ .three{
+    color: #1DA1F2;
+ }
+ .four{
+    color: #1d6dee;
+ }
+ .five{
+    color: #1d6dee;
+ } 
+.icons{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 250px;
+}
+
+a{
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 80px; 
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-size: 2rem;
+    color: var(--color);
+}
+
+
+.one:hover{
+    background: var(--color);
+    color: #000dff;
+    box-shadow: 0 0 5px var(--color), 
+                 0 0 50px var(--color), 
+                    0 0 75px var(--color), 
+                   0 0 100px var(--color) ;
+}
+.two:hover{
+    background: var(--color);
+    color: #ff0000;
+    box-shadow: 0 0 5px var(--color), 
+                 0 0 50px var(--color), 
+                    0 0 75px var(--color), 
+                   0 0 100px var(--color) ;
+}
+.three:hover{
+    background: var(--color);
+    color: #0d00ff;
+    box-shadow: 0 0 5px var(--color), 
+                 0 0 50px var(--color), 
+                    0 0 75px var(--color), 
+                   0 0 100px var(--color) ;
+}
+.four:hover{
+    background: var(--color);
+    color: hwb(230 3% 9%);
+    box-shadow: 0 0 5px var(--color), 
+                 0 0 50px var(--color), 
+                    0 0 75px var(--color), 
+                   0 0 100px var(--color) ;
+}
+.five:hover{
+    background: var(--color);
+    color: #000dff;
+    box-shadow: 0 0 5px var(--color), 
+                 0 0 50px var(--color), 
+                    0 0 75px var(--color), 
+                   0 0 100px var(--color) ;
+}
